@@ -15,4 +15,10 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+
+}
+
+.tarjeta {
+    padding: 33%;
+    border-radius: 2rem;
 }
