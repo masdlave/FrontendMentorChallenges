@@ -1,24 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-/* Font: "Outfit", sans-serif; | Weights: 400, 700 */
-
-/* LAYOUT
-- Mobile: 375px
-- Desktop: 1440px
-*/
+/* NO RESPONSIVE - ONLY DESKTOP VERSION (FULL SCREEN) */
 
 :root {
     --White: hsl(0, 0%, 100%);
-    --Slate300: hsl(212, 45%, 89%);
-    --Slate500: hsl(216, 15%, 48%);
-    --Slate900: hsl(218, 44%, 22%);
+    --Blacker: #26272b;
+    --Black: #313338;
 }
 
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: var(--Black);
+}
 
+h2 {
+    color: var(--Blacker);
+}
+
+p {
+    color: var(--Black);
 }
 
 .tarjeta {
-    padding: 33%;
-    border-radius: 2rem;
+    background-color: var(--White);
+    border-radius: 1.5rem;
+    margin-top: 1.3rem;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.contenido {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: large;
+}
+
+img {
+    border-radius: 1.5rem;
+}
+
+.attribution {
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
 }
